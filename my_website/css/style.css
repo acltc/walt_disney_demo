@@ -13,6 +13,13 @@ header {
   font-family: 'Righteous', cursive;
 }
 
+footer {
+  color: white;
+  background: purple;
+  clear: both;
+  text-align: center;
+}
+
 #container {
   border: 1px solid gray;
 }
