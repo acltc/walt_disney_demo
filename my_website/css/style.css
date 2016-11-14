@@ -1,5 +1,5 @@
 body {
-  background: blue;
+
 }
 
 p {
@@ -9,3 +9,10 @@ p {
 #food {
   font-style: italic;
 }
+
+header {
+  color: white;
+  background-color: purple;
+  text-align: center;
+}
+
