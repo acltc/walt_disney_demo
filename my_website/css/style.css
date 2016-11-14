@@ -16,3 +16,6 @@ header {
   text-align: center;
 }
 
+#container {
+  border: 1px solid gray;
+}
