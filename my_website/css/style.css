@@ -68,3 +68,8 @@ footer {
   text-decoration: none;
 }
 
+#nav li a:hover {
+  background: #111;
+}
+
+
