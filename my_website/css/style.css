@@ -1,9 +1,8 @@
+/************************** All Pages ***************************/
+
+
 body {
   font-family: 'Roboto', sans-serif;
-}
-
-#food {
-  font-style: italic;
 }
 
 header {
@@ -31,20 +30,6 @@ footer {
   margin: 0px 0px 0px 10px;
 }
 
-#bio-content {
-  margin: 0px 0px 0px 250px;
-  border-left: 1px solid gray;
-  padding: 10px 10px 10px 10px;
-  height: 500px;
-}
-
-#list-top{
-  float: left;
-  width: 230px;
-  margin: 0;
-  padding: 10px;
-  height: 500px;
-}
 
 /*Navbar*/
 
@@ -72,9 +57,37 @@ footer {
   background: #111;
 }
 
-#biography {
+/************************** Biography Page ***************************/
+
+#bio-content {
+  margin: 0px 0px 0px 250px;
+  border-left: 1px solid gray;
+  padding: 10px 10px 10px 10px;
+  height: 500px;
+}
+
+#list-top{
+  float: left;
+  width: 230px;
+  margin: 0;
   padding: 10px;
   height: 500px;
 }
 
+/************************** History Report ***************************/
+
+#biography {
+  margin: 0px 400px 0px 0px;
+  border-right: 1px solid gray;
+  padding: 10px;
+  height: 500px;
+}
+
+#quiz {
+  width: 380px;
+  float: right;
+  margin: 0;
+  padding: 10px;
+  height: 500px;
+}
 
