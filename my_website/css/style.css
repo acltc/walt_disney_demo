@@ -2,10 +2,6 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-p {
-  color: #cc0000;
-}
-
 #food {
   font-style: italic;
 }
@@ -20,3 +16,12 @@ header {
 #container {
   border: 1px solid gray;
 }
+
+#img-right {
+  float: right;
+}
+
+#bio-content {
+  height: 500px;
+}
+
