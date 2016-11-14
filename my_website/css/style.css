@@ -91,3 +91,12 @@ footer {
   height: 500px;
 }
 
+#question-one-solution {
+  color: green;
+  display: none;
+}
+
+#question-two-solution {
+  color: green;
+  display: none;
+}
