@@ -51,7 +51,16 @@
       <p>I beleive the most expensive battery will last the longest. But, I think one of the better generic batteries will be more cost effective.</p>
       <h3>Experiment</h3>
       <p>I will run a flashlight using different battery brands until the flashlight no longer generates any light.</p>
+      <h3 id="chart-data">Results</h3>
+      <p>See chart:</p>
+      <div id=image-container>
+        <h4 id="chart-heading">Battery Results Averaged Over 3 Tests</h4>
+        <canvas id="my-chart"></canvas>
+      </div>
+      <h3 id="chart-data">Conclusion</h3>
+      <p>Duracell was the longest lasting battery, but since generic CVS brand batteries were half the cost, they were greater value. I most things, I will only use CVS batteries from now on.</p>
     </div>
+  
 
     <footer>Copyright ©2016</footer>
   </div>
@@ -60,6 +69,25 @@
 <script type="text/javascript">
   $("#glide").glide({
       type: "carousel"
+  });
+  
+  var ctx = document.getElementById("my-chart");
+  var myChart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: ["Energizer", "Duracell", "CVS (Generic)", "Amazon Basics (Generic)"],
+      datasets: [{
+        label: 'Hours Flashlight Lasted',
+        data: [3.4, 3.6, 3.2, 2.9],
+        backgroundColor: ['green', 'blue', 'red', 'orange']
+      }]
+    },
+    options: {
+         legend: {
+            display: false
+         }
+    }
+
   });
 </script>
 </html>
