@@ -21,6 +21,11 @@ footer {
   padding: 20px 20px 20px 20px;
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+}
+
 #container {
   border: 1px solid gray;
 }
@@ -108,4 +113,24 @@ footer {
   border-top: 1px solid gray;
   font-family: 'Old Standard TT', serif;
   height: 200px;
+}
+
+/************************** Science Project ***************************/
+
+#image-container {
+  width: 600px;
+  float: right;
+  margin: 10px;
+}
+
+#chart-data {
+  clear: both;
+}
+
+#chart-heading {
+  text-align: center;
+}
+
+#sci-content {
+  padding: 10px;
 }
