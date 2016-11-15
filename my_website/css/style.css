@@ -1,6 +1,5 @@
 /************************** All Pages ***************************/
 
-
 body {
   font-family: 'Roboto', sans-serif;
 }
@@ -108,6 +107,19 @@ ul {
   margin: 0;
   padding: 10px;
   height: 500px;
+}
+
+#bio-video {
+  border-top: 1px solid gray;
+  padding: 40px 10px 10px 10px;
+
+}
+
+#bio-video iframe {
+  float: right;
+  width: 400px;
+  height: 300px;
+  margin: 0px 0px 40px 10px;
 }
 
 /************************** History Report ***************************/
