@@ -100,3 +100,12 @@ footer {
   color: green;
   display: none;
 }
+
+#quote-container {
+  height: 200px;
+}
+#quotes {
+  border-top: 1px solid gray;
+  font-family: 'Old Standard TT', serif;
+  height: 200px;
+}
