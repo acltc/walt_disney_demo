@@ -112,15 +112,13 @@ ul {
 #bio-video {
   border-top: 1px solid gray;
   padding: 40px 10px 10px 10px;
-
+  clear: both;
 }
 
-#bio-video iframe {
-  float: right;
-  width: 400px;
-  height: 300px;
-  margin: 0px 0px 40px 10px;
+#clear-img{
+  clear: both;  
 }
+
 
 /************************** History Report ***************************/
 
@@ -128,7 +126,7 @@ ul {
   margin: 0px 400px 0px 0px;
   border-right: 1px solid gray;
   padding: 10px;
-  height: 500px;
+  height: 800px;
 }
 
 #quiz {
@@ -158,6 +156,11 @@ ul {
   height: 200px;
 }
 
+#video-container {
+  float: right;
+  background: pink;
+}
+
 /************************** Science Project ***************************/
 
 #image-container {
@@ -168,6 +171,8 @@ ul {
 
 #chart-data {
   clear: both;
+  margin: 0px;
+  padding: 0px;
 }
 
 #chart-heading {
